@@ -1,0 +1,47 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+
+# Gradio
+.gradio/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Certificates and private keys
+*.pem
+*.key
+
+# Include KrishiRakshak trained models
+!ml/model.pth
+!training/early_stage_model.pth
+
+# Large dataset - documented separately
+data/dataset/
+
+# Exclude macOS metadata
+.DS_Store

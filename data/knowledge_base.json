@@ -1,0 +1,107 @@
+{
+    "diseases": {
+        "bacterial_blight": {
+            "pathogen": "Xanthomonas citri pv. malvacearum",
+            "r_genes": "B12, B4, B7 resistance genes",
+            "biocontrol_ipm": [
+                "Foliar spray with Pseudomonas fluorescens @ 10g/L",
+                "Copper oxychloride (0.25%) + Streptocycline (100 ppm) prophylactic spray",
+                "Seed treatment with Plant Growth Promoting Rhizobacteria (PGPR)"
+            ],
+            "resistant_cultivars": [
+                "LRA 5166",
+                "Suraj",
+                "CICR Bt-6"
+            ]
+        },
+        "curl_virus": {
+            "pathogen": "Cotton Leaf Curl Multan Virus (CLCuV)",
+            "r_genes": "CLCuD QTLs, introgressed G. arboreum alleles",
+            "biocontrol_ipm": [
+                "Whitefly vector control: Deploy yellow sticky traps @ 8-10 traps/acre",
+                "Release Chrysoperla zastrowi biocontrol predators @ 2,000/acre",
+                "Foliar neem formulation spray (10,000 ppm) @ 2ml/L"
+            ],
+            "resistant_cultivars": [
+                "FDK 124",
+                "PKV 081",
+                "PAU Bt 1"
+            ]
+        },
+        "fussarium_wilt": {
+            "pathogen": "Fusarium oxysporum f. sp. vasinfectum",
+            "r_genes": "Fov1, Fov4 recessive & dominant alleles",
+            "biocontrol_ipm": [
+                "Soil application of Trichoderma viride @ 2.5 kg/ha mixed with FYM",
+                "Crop rotation with sorghum or maize to break fungal spore cycle",
+                "Summer deep plowing and soil solarization"
+            ],
+            "resistant_cultivars": [
+                "G. Cot. 19",
+                "Phule Anmol",
+                "Y1"
+            ]
+        },
+        "healthy": {
+            "pathogen": "None (Healthy Bt Cotton)",
+            "r_genes": "Cry1Ac + Cry2Ab (BG-II) / Vip3A pyramided",
+            "biocontrol_ipm": [
+                "Refuge-in-a-Bag (RIB) compliance check (5% non-Bt seed blend)",
+                "Install Gossyplure pheromone traps @ 8-10 traps/acre for Pink Bollworm monitoring",
+                "Prophylactic Trichogramma bactrae egg parasitoid releases"
+            ],
+            "resistant_cultivars": [
+                "Standard ICAR-CICR approved BG-II hybrids"
+            ]
+        },
+        "diseased_cotton_leaf": {
+            "pathogen": "Fungal / Bacterial Complex (Leaf Blight / Spot)",
+            "r_genes": "Multi-pathogen resistance QTLs",
+            "biocontrol_ipm": [
+                "Prophylactic foliar spray with Trichoderma harzianum @ 5g/L",
+                "Application of Pseudomonas fluorescens bio-formulation",
+                "Neem oil spray (1500 ppm) @ 3ml/L"
+            ],
+            "resistant_cultivars": [
+                "Suraj",
+                "LRA 5166"
+            ]
+        },
+        "fresh_cotton_leaf": {
+            "pathogen": "None (Healthy Bt Cotton)",
+            "r_genes": "Cry1Ac + Cry2Ab (BG-II) / Vip3A pyramided",
+            "biocontrol_ipm": [
+                "Maintain Refuge-in-a-Bag (RIB) protocols",
+                "Pheromone trap surveillance for Pink Bollworm ETL tracking",
+                "Weekly Trichogramma releases"
+            ],
+            "resistant_cultivars": [
+                "Standard ICAR-CICR approved BG-II hybrids"
+            ]
+        },
+        "diseased_cotton_plant": {
+            "pathogen": "Systemic Cotton Pathogen (Wilt / Blight Complex)",
+            "r_genes": "Broad-spectrum defensin & PR-protein markers",
+            "biocontrol_ipm": [
+                "Root drenching with Trichoderma viride",
+                "Sanitize affected plants to prevent spore propagation",
+                "Avoid waterlogging to mitigate root-rot conditions"
+            ],
+            "resistant_cultivars": [
+                "Phule Anmol",
+                "CICR Bt-6"
+            ]
+        },
+        "fresh_cotton_plant": {
+            "pathogen": "None (Healthy Bt Stand)",
+            "r_genes": "Transgenic Bt traits + Native R-alleles",
+            "biocontrol_ipm": [
+                "Standard Integrated Pest Management schedule",
+                "Maintain balanced N-P-K nutrition"
+            ],
+            "resistant_cultivars": [
+                "Standard approved hybrids"
+            ]
+        }
+    }
+}
