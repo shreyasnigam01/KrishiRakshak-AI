@@ -1,14 +1,14 @@
 # 🌾 KrishiRakshak AI
 
-### AI-Powered Rice Pest Identification, Growth Stage Detection & Crop Protection
+### AI-Powered Pest Identification, Growth Stage Detection & Crop Protection
 
 KrishiRakshak AI is an artificial intelligence-powered agricultural support platform developed as part of the **Smart India Hackathon (SIH)**.
 
-The platform helps farmers identify rice pests from uploaded images, detect their growth stages, and receive suitable control measures and recommendations to support crop protection and agricultural decision-making.
+The platform helps farmers identify pests from uploaded images, detect their growth stages, and receive suitable control measures and recommendations to support crop protection and agricultural decision-making.
 
 ## 🚀 Key Features
 
-- **Rice Pest Identification:** Identify rice pests using image-based machine learning.
+- **Pest Identification:** Identify pests using image-based machine learning.
 - **Growth Stage Detection:** Detect the growth stages of identified pests.
 - **Early-Stage Detection:** Dedicated early-stage detection model.
 - **AI-Based Recommendations:** Provide stage-specific pest control prescriptions.
